@@ -2,15 +2,14 @@
 
 Custom Homebrew tap for shirk33y.
 
-## Usage
+## Install
 
 ```sh
-brew tap shirk33y/tap
-brew install yt-dlp
+brew install shirk33y/tap/claw-code
 ```
 
 ## Formulae
 
 | Formula | Description |
 |---------|-------------|
-| yt-dlp  | Feature-rich command-line audio/video downloader |
+| [claw-code](Formula/claw-code.rb) | Fast Rust-based Claude CLI — fork of [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code), released nightly with a 3-day supply chain delay |
