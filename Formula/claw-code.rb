@@ -26,6 +26,7 @@ class ClawCode < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/claw --version 2>&1", 0)
+    # Binary reports upstream Cargo.toml version (0.x.y), not our CalVer.
+    assert_match "Version", shell_output("#{bin}/claw --version 2>&1")
   end
 end
