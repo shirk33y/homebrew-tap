@@ -1,3 +1,5 @@
+<!-- project-index-summary: Custom Homebrew tap -->
+
 # homebrew-tap
 
 Custom Homebrew tap for shirk33y.
